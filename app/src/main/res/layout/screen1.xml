@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/school1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/user1"
+                android:layout_marginBottom="0.1dp"
+                android:layout_marginTop="0.1dp"
+                android:layout_marginLeft="0.1dp"
+                android:layout_marginRight="0.1dp"/>
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:textColorHint="@color/white"
+                android:paddingLeft="90dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/mail"
+                android:layout_marginLeft="0.1dp"
+                android:layout_marginBottom="0.1dp"
+                android:layout_marginRight="0.1dp"
+                android:layout_marginTop="0.1dp"/>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email-Id"
+                android:textColorHint="@color/white"
+                android:paddingLeft="90dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/phone1"
+                android:layout_marginTop="0.1mm"
+                android:layout_marginLeft="0.1mm"
+                android:layout_marginRight="0.1mm"
+                android:layout_marginBottom="0.1mm"/>
+            <EditText
+                android:id="@+id/phnum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone number"
+                android:textColorHint="@color/white"
+                android:inputType="number"
+                android:paddingLeft="90dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="145dp"/>
+
+</LinearLayout>

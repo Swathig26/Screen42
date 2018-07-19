@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/school1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textAlignment="center"
+        >
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WELCOME"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="100dp"
+            />
+
+        <TextView
+            android:id="@+id/edit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="170dp"
+        />
+    <Button
+        android:textSize="30dp"
+        android:id="@+id/school"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCHOOL               "
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JOB VACANCY  "
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:onClick="job"/>
+
+    <Button
+        android:id="@+id/institute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INSTITUTE           "
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:onClick="institute"/>
+</LinearLayout>
